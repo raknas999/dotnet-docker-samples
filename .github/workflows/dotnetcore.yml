@@ -14,7 +14,7 @@ jobs:
       with:
         dotnet-version: 3.0.100
     - name: dotnet test
-      working-directory: ./dotnet-docker-samples/dotnetapp-dev/tests
+      working-directory: ./dotnet-docker-samples/dotnetapp-dev/tests/
       run: dotnet test
     - name: Build with dotnet
       working-directory: ./dotnet-docker-samples/dotnetapp-dev
